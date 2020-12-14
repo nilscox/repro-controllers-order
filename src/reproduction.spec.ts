@@ -31,7 +31,7 @@ describe('reproduction', () => {
 
   describe('store inventory', () => {
     it('should return the inventory', async () => {
-      await request(server).get('/store/item-invetory').expect(200);
+      await request(server).get('/store/item-inventory').expect(200);
     });
   });
 });
